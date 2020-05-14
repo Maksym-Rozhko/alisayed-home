@@ -1,0 +1,1070 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+/* line 11, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+/* line 23, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+/* line 31, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+main {
+  display: block;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+/* line 40, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+/* line 53, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+/* line 64, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+/* line 76, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+/* line 85, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+/* line 95, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+/* line 105, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+/* line 116, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+/* line 125, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 133, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 137, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+/* line 148, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+/* line 160, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+/* line 176, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+/* line 186, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+/* line 195, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+/* line 206, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+/* line 218, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+/* line 229, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+/* line 240, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+/* line 253, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+/* line 261, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+/* line 270, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+/* line 280, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+/* line 290, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+/* line 299, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+/* line 308, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+/* line 320, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+/* line 328, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10+.
+   */
+/* line 339, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+template {
+  display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+/* line 347, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url("../fonts/roboto-bold-webfont.woff2") format("woff2"), url("../fonts/roboto-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url("../fonts/roboto-light-webfont.woff2") format("woff2"), url("../fonts/roboto-light-webfont.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url("../fonts/roboto-medium-webfont.woff2") format("woff2"), url("../fonts/roboto-medium-webfont.woff") format("woff");
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url("../fonts/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/roboto-regular-webfont.woff") format("woff");
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url("../fonts/roboto-black-webfont.woff2") format("woff2"), url("../fonts/roboto-black-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_header.scss */
+._header {
+  background-color: #f3f3f3;
+}
+
+/* line 4, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_header.scss */
+._header-background {
+  display: none;
+}
+
+/* line 8, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_header.scss */
+._header-box {
+  padding-top: 27px;
+  padding-bottom: 101px;
+}
+
+/* line 14, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_header.scss */
+._header .nav-burger {
+  width: 25px;
+  position: absolute;
+  top: 27px;
+  left: 15px;
+  z-index: 10;
+  padding-top: 10px;
+  padding-bottom: 12px;
+  padding-left: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+/* line 27, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_header.scss */
+._header .nav-burger-item {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #262f32;
+  position: absolute;
+  transition: 0.5s linear;
+}
+
+/* line 35, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_header.scss */
+._header .nav-burger-item::before, ._header .nav-burger-item::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #262f32;
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  transition: 0.5s linear;
+}
+
+/* line 47, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_header.scss */
+._header .nav-burger-item::before {
+  content: "";
+  top: -7px;
+}
+
+/* line 52, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_header.scss */
+._header .nav-burger-item::after {
+  content: "";
+  bottom: -7px;
+}
+
+/* line 59, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_header.scss */
+._header-content {
+  margin-top: 75px;
+}
+
+/* line 62, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_header.scss */
+._header-content ._header-title {
+  margin-top: 0;
+  margin-bottom: 60px;
+  color: #262f32;
+  line-height: 47.75px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.37px;
+}
+
+/* line 72, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_header.scss */
+._header-content ._header-prev {
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: 1.37px;
+}
+
+/* line 79, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_header.scss */
+._header-content ._header-fintext {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.37px;
+}
+
+/* line 85, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_header.scss */
+._header-content ._header-text {
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: #262f32;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.62px;
+}
+
+/* line 94, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_header.scss */
+._header-content ._header-text:last-child {
+  margin-bottom: 0;
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_pages.scss */
+._pages {
+  background-image: url("../images/start_2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* line 14, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_pages.scss */
+._pages-title {
+  margin-top: 0;
+  margin-bottom: 37px;
+  color: #262f32;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1.35px;
+}
+
+/* line 25, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_pages.scss */
+._pages-titles {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  letter-spacing: 1.35px;
+}
+
+/* line 31, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_pages.scss */
+._pages-text {
+  margin-top: 0;
+  margin-bottom: 54px;
+  color: #262f32;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.47px;
+}
+
+/* line 43, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_pages.scss */
+._pages-btn {
+  width: 210px;
+  color: #262f32;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+/* line 57, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_pages.scss */
+._pages-btn:hover {
+  background-color: #262f32;
+  color: #fff;
+  border-color: #262f32;
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_dummy.scss */
+._dummy {
+  background-image: url("../images/page_3.png");
+}
+
+/* line 4, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_dummy.scss */
+._dummy ._pages-title {
+  color: #fff;
+}
+
+/* line 8, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_dummy.scss */
+._dummy ._pages-text {
+  color: #fff;
+  opacity: 0.7;
+}
+
+/* line 14, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_dummy.scss */
+._block-btn {
+  width: 210px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+/* line 28, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_dummy.scss */
+._block-btn:hover {
+  background-color: #fff;
+  color: #262f32;
+  border-color: #fff;
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_services.scss */
+._services {
+  padding-left: 15px;
+  background-image: url("../images/our-services_4.png");
+}
+
+/* line 5, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_services.scss */
+._services ._pages-title {
+  color: #fff;
+}
+
+/* line 9, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_services.scss */
+._services ._pages-text {
+  color: #fff;
+  opacity: 0.8;
+}
+
+/* line 13, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_services.scss */
+._services ._pages-text:last-child {
+  margin-bottom: 0;
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts {
+  background-image: url("../images/reviews_5.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  padding-top: 74px;
+  padding-bottom: 72px;
+}
+
+/* line 11, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(90, 102, 95, 0.5);
+}
+
+/* line 21, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._pages-content {
+  margin-bottom: 50px;
+}
+
+/* line 24, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._pages-content ._pages-title {
+  color: #fff;
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  line-height: 56px;
+  font-weight: 300;
+  letter-spacing: 1.35px;
+}
+
+/* line 34, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._pages-content ._pages-titles {
+  font-weight: 900;
+  letter-spacing: 1.35px;
+}
+
+/* line 40, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-form {
+  margin-bottom: 95px;
+}
+
+/* line 43, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-form ._contacts-label {
+  width: 100%;
+}
+
+/* line 47, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-form ._contacts-input {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #fff;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+/* line 61, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-form ._contacts-input::placeholder {
+  color: #fff;
+}
+
+/* line 65, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-form ._contacts-input:focus {
+  outline: none;
+}
+
+/* line 70, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-form ._contacts-text {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  padding-top: 20px;
+  padding-left: 20px;
+  max-height: 160px;
+  resize: none;
+}
+
+/* line 81, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-form ._contacts-text:focus {
+  outline: none;
+}
+
+/* line 87, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-subtext {
+  width: 250px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+}
+
+/* line 98, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-subtext:last-child {
+  margin-bottom: 0;
+}
+
+/* line 103, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-links {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+/* line 107, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-links ._contacts-box {
+  margin-right: 5px;
+  width: 45px;
+  height: 45px;
+  background-color: #345bb4;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* line 115, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-links ._contacts-box:hover {
+  background-color: #fff;
+  border: 2px solid #345bb4;
+}
+
+/* line 120, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-links ._contacts-box:hover ._contacts-svg path {
+  fill: #345bb4;
+}
+
+/* line 124, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-links ._contacts-box:last-child {
+  margin-right: 0;
+}
+
+/* line 129, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-links ._contacts-dribble {
+  background-color: #e64895;
+}
+
+/* line 132, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-links ._contacts-dribble:hover {
+  border: 2px solid #e64895;
+}
+
+/* line 136, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-links ._contacts-dribble:hover ._contacts-svg path {
+  fill: #e64895;
+}
+
+/* line 141, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-links ._contacts-twiter {
+  background-color: #00b4ff;
+}
+
+/* line 144, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-links ._contacts-twiter:hover {
+  border: 2px solid #00b4ff;
+}
+
+/* line 148, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-links ._contacts-twiter:hover ._contacts-svg path {
+  fill: #00b4ff;
+}
+
+/* line 153, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_contacts.scss */
+._contacts ._contacts-links ._contacts-svg {
+  position: relative;
+  top: 7px;
+}
+
+/* line 1, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_footer.scss */
+._footer {
+  padding-top: 74px;
+  padding-bottom: 72px;
+  background-image: url("../images/designer_6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-left: 20px;
+}
+
+/* line 10, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_footer.scss */
+._footer ._pages-content {
+  margin-bottom: 257px;
+}
+
+/* line 13, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_footer.scss */
+._footer ._pages-content ._pages-title {
+  font-size: 45px;
+  color: #fff;
+  line-height: 66px;
+}
+
+/* line 20, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_footer.scss */
+._footer ._footer-logo {
+  display: block;
+  margin-bottom: 35px;
+}
+
+/* line 26, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_footer.scss */
+._footer ._footer-designer ._footer-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+/* line 36, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_footer.scss */
+._footer ._footer-designer ._footer-title {
+  line-height: 66px;
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 1.26px;
+}
+
+@media (min-width: 768px) {
+  /* line 2, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_tablet.scss */
+  ._header {
+    background-image: url("../images/header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 8, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_tablet.scss */
+  ._header-background {
+    display: block;
+    font-size: 0;
+  }
+  /* line 13, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_tablet.scss */
+  ._header-box {
+    text-align: center;
+    padding-top: 57px;
+  }
+  /* line 18, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_tablet.scss */
+  ._header .nav-burger {
+    top: 60px;
+    left: 900px;
+  }
+  /* line 22, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_tablet.scss */
+  ._header .nav-burger-item {
+    background-color: #f3f3f3;
+  }
+  /* line 25, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_tablet.scss */
+  ._header .nav-burger-item::before, ._header .nav-burger-item::after {
+    background-color: #f3f3f3;
+  }
+  /* line 33, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_tablet.scss */
+  ._header-content ._header-title {
+    font-size: 40px;
+    color: #f3f3f3;
+  }
+  /* line 38, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_tablet.scss */
+  ._header-content ._header-text {
+    font-size: 18px;
+    color: #f3f3f3;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 49, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_tablet.scss */
+  ._pages-content {
+    text-align: center;
+  }
+  /* line 53, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_tablet.scss */
+  ._pages-title {
+    font-size: 45px;
+    line-height: 66px;
+  }
+  /* line 59, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_tablet.scss */
+  ._contacts {
+    min-height: inherit;
+  }
+  /* line 62, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_tablet.scss */
+  ._contacts-form {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 68, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_tablet.scss */
+  ._contacts-us {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  /* line 75, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_tablet.scss */
+  ._footer-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* line 81, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_tablet.scss */
+  ._display {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 2, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._header-background {
+    background-image: url("../images/header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  /* line 9, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._header {
+    background-image: none;
+    background-color: #f3f3f3;
+  }
+  /* line 13, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._header-box {
+    min-width: 350px;
+    text-align: left;
+    padding-left: 30px;
+  }
+  /* line 19, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._header .nav-burger {
+    top: 60px;
+    left: 30px;
+  }
+  /* line 23, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._header .nav-burger-item {
+    background-color: #262f32;
+  }
+  /* line 26, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._header .nav-burger-item::before, ._header .nav-burger-item::after {
+    background-color: #262f32;
+  }
+  /* line 33, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._header-content {
+    min-width: 350px;
+    padding-left: 30px;
+  }
+  /* line 37, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._header-content ._header-title {
+    font-size: 40px;
+    color: #262f32;
+  }
+  /* line 42, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._header-content ._header-text {
+    font-size: 18px;
+    color: #262f32;
+  }
+  /* line 49, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._my-flex {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  /* line 54, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._pages {
+    padding-bottom: 84px;
+  }
+  /* line 57, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._pages-content {
+    padding-left: 40px;
+    text-align: left;
+  }
+  /* line 62, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._pages-text {
+    max-width: 540px;
+  }
+  /* line 67, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._dummy {
+    padding-top: 85px;
+    padding-bottom: 70px;
+  }
+  /* line 72, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._services {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  /* line 77, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._services ._pages-content {
+    padding-left: 60px;
+    max-width: 520px;
+  }
+  /* line 83, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._services ._pages-text {
+    margin-bottom: 77px;
+  }
+  /* line 89, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._contacts-form {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+    min-width: 700px;
+  }
+  /* line 95, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._contacts-form ._contacts-label {
+    max-width: 327px;
+  }
+  /* line 99, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._contacts-form ._contacts-input {
+    min-height: 50px;
+  }
+  /* line 104, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._contacts-us {
+    flex-direction: column;
+    padding-left: 40px;
+  }
+  /* line 109, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._contacts-subtext {
+    min-width: 500px;
+  }
+  /* line 115, ../../../../../../../../../../../../../Users/User/Desktop/alisayed-home/scss/_desktop.scss */
+  ._footer-box {
+    flex-direction: column;
+    padding-left: 40px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
